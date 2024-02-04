@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://source/Main.gd" id="1_i28sw"]
 [ext_resource type="PackedScene" uid="uid://bqdvfvr3qyoom" path="res://source/Logos.tscn" id="2_b3u07"]
 
+
 [node name="Main" type="Control"]
 layout_mode = 3
 anchors_preset = 15
