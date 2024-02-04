@@ -1,65 +1,48 @@
-# Open RTS
+# Overmind Tatics
 
-![Open RTS](./media/screenshots/screenshot_1400x650.png "Open RTS")
+An innovative blend of autobattle roulette systems and RTS unit control mechanics, built on the foundation of the Open RTS project using Godot 4.
 
-Open Source real-time strategy game made with Godot 4.
+## MVP Features
 
-## Purposes of this project
+- [ ] Adjusts to the original project for our needs
+- [ ] Define aesthetic, story and diegetic elements
+- [ ] Autobattle roulette system for unit selection
+- [ ] New 3D asset models
+- [ ] Simple UI
+- [ ] Finish MVP (1 map, proof of concept)
 
-This game is not going to be a very advanced RTS that would compete with other games of this genre. Instead, it will focus on simplicity and clean design so that it can:
- - showcase Godot 4 capabilities in terms of developing RTS games
- - provide an open-source project template for creating RTS games
- - educate game creators on creating RTS game mechanics
+## Backlog Features
 
-## Features
+- [ ] RogueLike progresssion system
+- [ ] Squad hability system
+- [ ] Adjust UI and add story
+- [ ] Advanced AI
+- [ ] Procedural map and routes generation
+- [ ] Boss Battles
+- [ ] Flair!
 
- - [x] 1 species
- - [x] 2 resources
- - [x] terrain and air units
- - [x] deathmatch mode (human vs AI or AI vs AI)
- - [x] runtime player switching
- - [x] basic fog of war
- - [x] units disappearing in fog of war
- - [x] minimap
- - [x] swarm movement to position
- - [ ] swarm movement to unit
- - [x] simple UI
- - [ ] polished UI
- - [ ] sounds
- - [ ] music
- - [ ] VFX
+## Original Open RTS Features
 
-## Godot compatibility
+- [x] 1 species
+- [x] 2 resources
+- [x] Terrain and air units
+- [x] Deathmatch mode (human vs AI or AI vs AI)
+- [x] Runtime player switching
+- [x] Basic fog of war and units disappearing in fog of war
+- [x] Minimap
+- [x] Swarm movement to position
+- [x] Simple UI
 
-This project is compatible with Godot `4.2`.
+## Acknowledgments
 
- - support for Godot `4.1` is available on `godot-4.1-support` branch.
- - support for Godot `4.0` is available on `godot-4.0-support` branch.
+### Original Open RTS Project
 
-## Screenshots
+This project is based on the Open RTS project, designed to showcase Godot 4's capabilities for RTS games and provide a template for game developers. We extend our heartfelt gratitude to the Open RTS team for their foundational work.
 
-![Screenshot 1](./media/screenshots/screenshot_2_1920x1080.png "Screenshot 1")
+### Core Contributors to Open RTS
+- Pawel Lampe (Lampe Games)
 
-![Screenshot 2](./media/screenshots/screenshot_3_1920x1080.png "Screenshot 2")
-
-![Screenshot 3](./media/screenshots/screenshot_4_1920x1080.png "Screenshot 3")
-
-## Contributing
-
-Everyone is free to fix bugs or perform refactoring just by opening PR. As for features, please refer to existing issue or create one before starting implementation.
-
-## Credits
-
-### Core contributors
- - Pawel Lampe (Lampe Games)
- 
-### Contributors
-
-<a href="https://github.com/lampe-games/godot-open-rts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=lampe-games/godot-open-rts" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+[Original Open RTS Contributors](https://github.com/lampe-games/godot-open-rts/graphs/contributors)
 
 ### Assets
- - 3D Space Kit by [Kenney](https://www.kenney.nl/assets/space-kit)
+- 3D Space Kit by [Kenney](https://www.kenney.nl/assets/space-kit)
