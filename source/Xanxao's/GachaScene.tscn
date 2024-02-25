@@ -1,0 +1,83 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdj1xd8k1tye8"]
+
+[ext_resource type="Script" path="res://source/Xanxao's/GachaScripts/GachaManager.gd" id="1_ohyya"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6kx1f"]
+size = Vector2(50, 50)
+
+[node name="GachaScene" type="Node3D"]
+
+[node name="Background" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, -8.74228e-08, 3.82137e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 0, 0, 11.1534)
+gi_mode = 0
+mesh = SubResource("PlaneMesh_6kx1f")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -4.75603)
+projection = 1
+size = 14.333
+near = 0.936
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -5.76185)
+
+[node name="GachaManager" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 4.114, -1, 4.04901)
+script = ExtResource("1_ohyya")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="reroll_button" type="Button" parent="CanvasLayer"]
+offset_left = 45.0
+offset_top = 833.0
+offset_right = 301.0
+offset_bottom = 1042.0
+text = "Here lies the capability
+of redoing the process 
+of summoning the heroes
+to your choosing in the 
+dedicated space and
+alloted time
+              20"
+
+[node name="Button3" type="Button" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 573.0
+offset_top = 379.0
+offset_right = 709.0
+offset_bottom = 574.0
+
+[node name="Button4" type="Button" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 729.0
+offset_top = 384.0
+offset_right = 865.0
+offset_bottom = 579.0
+
+[node name="Button5" type="Button" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 885.0
+offset_top = 379.0
+offset_right = 1021.0
+offset_bottom = 574.0
+
+[node name="Button6" type="Button" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 1036.0
+offset_top = 386.0
+offset_right = 1172.0
+offset_bottom = 581.0
+
+[node name="Button7" type="Button" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 1187.0
+offset_top = 383.0
+offset_right = 1323.0
+offset_bottom = 578.0
+
+[connection signal="button_up" from="CanvasLayer/reroll_button" to="GachaManager" method="_on_button_button_up"]
+[connection signal="button_up" from="CanvasLayer/Button3" to="GachaManager" method="_on_button_3_button_up"]
+[connection signal="button_up" from="CanvasLayer/Button4" to="GachaManager" method="_on_button_4_button_up"]
+[connection signal="button_up" from="CanvasLayer/Button5" to="GachaManager" method="_on_button_5_button_up"]
+[connection signal="button_up" from="CanvasLayer/Button6" to="GachaManager" method="_on_button_6_button_up"]
+[connection signal="button_up" from="CanvasLayer/Button7" to="GachaManager" method="_on_button_7_button_up"]

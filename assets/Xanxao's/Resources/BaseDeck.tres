@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="StringArrayResource" load_steps=2 format=3 uid="uid://cedpv3jqim2li"]
+
+[ext_resource type="Script" path="res://assets/Xanxao's/Resources/DeckTemplate.gd" id="1_30aut"]
+
+[resource]
+script = ExtResource("1_30aut")
+deck = Array[String](["res://assets/Xanxao's/3D Testing Models/TestModel1.tscn", "res://assets/Xanxao's/3D Testing Models/TestModel1.tscn", "res://assets/Xanxao's/3D Testing Models/TestModel1.tscn", "res://assets/Xanxao's/3D Testing Models/TestModel1.tscn", "res://assets/Xanxao's/3D Testing Models/TestModel1.tscn"])

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d17fslypvorrg"]
+
+[node name="GachSceneBackground" type="Node2D"]
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Container" type="Container" parent="Node"]
+offset_right = 40.0
+offset_bottom = 40.0

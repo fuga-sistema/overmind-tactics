@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://6hqh3bm2abxj"]
+
+[ext_resource type="PackedScene" uid="uid://coxs21bt6vxax" path="res://assets/Xanxao's/3D Testing Models/WizardusMaximus.fbx" id="1_5w8in"]
+
+[node name="TestModel1" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+
+[node name="Root Scene" parent="MeshInstance3D" instance=ExtResource("1_5w8in")]
